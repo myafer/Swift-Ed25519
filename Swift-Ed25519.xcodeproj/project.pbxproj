@@ -1,0 +1,351 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42117C231F628D0B00A82702 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42117C221F628D0B00A82702 /* main.swift */; };
+		42117C401F628DAD00A82702 /* add_scalar.c in Sources */ = {isa = PBXBuildFile; fileRef = 42117C2F1F628DAD00A82702 /* add_scalar.c */; };
+		42117C411F628DAD00A82702 /* fe.c in Sources */ = {isa = PBXBuildFile; fileRef = 42117C311F628DAD00A82702 /* fe.c */; };
+		42117C421F628DAD00A82702 /* ge.c in Sources */ = {isa = PBXBuildFile; fileRef = 42117C341F628DAD00A82702 /* ge.c */; };
+		42117C431F628DAD00A82702 /* key_exchange.c in Sources */ = {isa = PBXBuildFile; fileRef = 42117C361F628DAD00A82702 /* key_exchange.c */; };
+		42117C441F628DAD00A82702 /* keypair.c in Sources */ = {isa = PBXBuildFile; fileRef = 42117C371F628DAD00A82702 /* keypair.c */; };
+		42117C451F628DAD00A82702 /* sc.c in Sources */ = {isa = PBXBuildFile; fileRef = 42117C391F628DAD00A82702 /* sc.c */; };
+		42117C461F628DAD00A82702 /* seed.c in Sources */ = {isa = PBXBuildFile; fileRef = 42117C3B1F628DAD00A82702 /* seed.c */; };
+		42117C471F628DAD00A82702 /* sha512.c in Sources */ = {isa = PBXBuildFile; fileRef = 42117C3C1F628DAD00A82702 /* sha512.c */; };
+		42117C481F628DAD00A82702 /* sign.c in Sources */ = {isa = PBXBuildFile; fileRef = 42117C3E1F628DAD00A82702 /* sign.c */; };
+		42117C491F628DAD00A82702 /* verify.c in Sources */ = {isa = PBXBuildFile; fileRef = 42117C3F1F628DAD00A82702 /* verify.c */; };
+		42117C4B1F628F6500A82702 /* Seed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42117C4A1F628F6500A82702 /* Seed.swift */; };
+		42117C4D1F6290A400A82702 /* Ed25519Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42117C4C1F6290A400A82702 /* Ed25519Error.swift */; };
+		42117C4F1F62937000A82702 /* KeyPair.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42117C4E1F62937000A82702 /* KeyPair.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		42117C1D1F628D0A00A82702 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		42117C1F1F628D0A00A82702 /* Swift-Ed25519 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Swift-Ed25519"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42117C221F628D0B00A82702 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		42117C2A1F628D7C00A82702 /* Swift-Ed25519-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Swift-Ed25519-Bridging-Header.h"; sourceTree = "<group>"; };
+		42117C2F1F628DAD00A82702 /* add_scalar.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = add_scalar.c; sourceTree = "<group>"; };
+		42117C301F628DAD00A82702 /* ed25519.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ed25519.h; sourceTree = "<group>"; };
+		42117C311F628DAD00A82702 /* fe.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fe.c; sourceTree = "<group>"; };
+		42117C321F628DAD00A82702 /* fe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fe.h; sourceTree = "<group>"; };
+		42117C331F628DAD00A82702 /* fixedint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fixedint.h; sourceTree = "<group>"; };
+		42117C341F628DAD00A82702 /* ge.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ge.c; sourceTree = "<group>"; };
+		42117C351F628DAD00A82702 /* ge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ge.h; sourceTree = "<group>"; };
+		42117C361F628DAD00A82702 /* key_exchange.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = key_exchange.c; sourceTree = "<group>"; };
+		42117C371F628DAD00A82702 /* keypair.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = keypair.c; sourceTree = "<group>"; };
+		42117C381F628DAD00A82702 /* precomp_data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = precomp_data.h; sourceTree = "<group>"; };
+		42117C391F628DAD00A82702 /* sc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sc.c; sourceTree = "<group>"; };
+		42117C3A1F628DAD00A82702 /* sc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sc.h; sourceTree = "<group>"; };
+		42117C3B1F628DAD00A82702 /* seed.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = seed.c; sourceTree = "<group>"; };
+		42117C3C1F628DAD00A82702 /* sha512.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sha512.c; sourceTree = "<group>"; };
+		42117C3D1F628DAD00A82702 /* sha512.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha512.h; sourceTree = "<group>"; };
+		42117C3E1F628DAD00A82702 /* sign.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sign.c; sourceTree = "<group>"; };
+		42117C3F1F628DAD00A82702 /* verify.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = verify.c; sourceTree = "<group>"; };
+		42117C4A1F628F6500A82702 /* Seed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Seed.swift; sourceTree = "<group>"; };
+		42117C4C1F6290A400A82702 /* Ed25519Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ed25519Error.swift; sourceTree = "<group>"; };
+		42117C4E1F62937000A82702 /* KeyPair.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyPair.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42117C1C1F628D0A00A82702 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42117C161F628D0900A82702 = {
+			isa = PBXGroup;
+			children = (
+				42117C211F628D0A00A82702 /* Swift-Ed25519 */,
+				42117C201F628D0A00A82702 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		42117C201F628D0A00A82702 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42117C1F1F628D0A00A82702 /* Swift-Ed25519 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42117C211F628D0A00A82702 /* Swift-Ed25519 */ = {
+			isa = PBXGroup;
+			children = (
+				42117C291F628D4F00A82702 /* Swift-Ed25519 */,
+				42117C221F628D0B00A82702 /* main.swift */,
+			);
+			path = "Swift-Ed25519";
+			sourceTree = "<group>";
+		};
+		42117C291F628D4F00A82702 /* Swift-Ed25519 */ = {
+			isa = PBXGroup;
+			children = (
+				42117C2E1F628DAD00A82702 /* src */,
+				42117C2A1F628D7C00A82702 /* Swift-Ed25519-Bridging-Header.h */,
+				42117C4A1F628F6500A82702 /* Seed.swift */,
+				42117C4C1F6290A400A82702 /* Ed25519Error.swift */,
+				42117C4E1F62937000A82702 /* KeyPair.swift */,
+			);
+			path = "Swift-Ed25519";
+			sourceTree = "<group>";
+		};
+		42117C2E1F628DAD00A82702 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				42117C2F1F628DAD00A82702 /* add_scalar.c */,
+				42117C301F628DAD00A82702 /* ed25519.h */,
+				42117C311F628DAD00A82702 /* fe.c */,
+				42117C321F628DAD00A82702 /* fe.h */,
+				42117C331F628DAD00A82702 /* fixedint.h */,
+				42117C341F628DAD00A82702 /* ge.c */,
+				42117C351F628DAD00A82702 /* ge.h */,
+				42117C361F628DAD00A82702 /* key_exchange.c */,
+				42117C371F628DAD00A82702 /* keypair.c */,
+				42117C381F628DAD00A82702 /* precomp_data.h */,
+				42117C391F628DAD00A82702 /* sc.c */,
+				42117C3A1F628DAD00A82702 /* sc.h */,
+				42117C3B1F628DAD00A82702 /* seed.c */,
+				42117C3C1F628DAD00A82702 /* sha512.c */,
+				42117C3D1F628DAD00A82702 /* sha512.h */,
+				42117C3E1F628DAD00A82702 /* sign.c */,
+				42117C3F1F628DAD00A82702 /* verify.c */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42117C1E1F628D0A00A82702 /* Swift-Ed25519 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42117C261F628D0B00A82702 /* Build configuration list for PBXNativeTarget "Swift-Ed25519" */;
+			buildPhases = (
+				42117C1B1F628D0A00A82702 /* Sources */,
+				42117C1C1F628D0A00A82702 /* Frameworks */,
+				42117C1D1F628D0A00A82702 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swift-Ed25519";
+			productName = "Swift-Ed25519";
+			productReference = 42117C1F1F628D0A00A82702 /* Swift-Ed25519 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42117C171F628D0900A82702 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Afer;
+				TargetAttributes = {
+					42117C1E1F628D0A00A82702 = {
+						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 42117C1A1F628D0900A82702 /* Build configuration list for PBXProject "Swift-Ed25519" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 42117C161F628D0900A82702;
+			productRefGroup = 42117C201F628D0A00A82702 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42117C1E1F628D0A00A82702 /* Swift-Ed25519 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42117C1B1F628D0A00A82702 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42117C481F628DAD00A82702 /* sign.c in Sources */,
+				42117C461F628DAD00A82702 /* seed.c in Sources */,
+				42117C4B1F628F6500A82702 /* Seed.swift in Sources */,
+				42117C451F628DAD00A82702 /* sc.c in Sources */,
+				42117C431F628DAD00A82702 /* key_exchange.c in Sources */,
+				42117C441F628DAD00A82702 /* keypair.c in Sources */,
+				42117C471F628DAD00A82702 /* sha512.c in Sources */,
+				42117C231F628D0B00A82702 /* main.swift in Sources */,
+				42117C421F628DAD00A82702 /* ge.c in Sources */,
+				42117C4F1F62937000A82702 /* KeyPair.swift in Sources */,
+				42117C401F628DAD00A82702 /* add_scalar.c in Sources */,
+				42117C4D1F6290A400A82702 /* Ed25519Error.swift in Sources */,
+				42117C411F628DAD00A82702 /* fe.c in Sources */,
+				42117C491F628DAD00A82702 /* verify.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		42117C241F628D0B00A82702 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		42117C251F628D0B00A82702 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		42117C271F628D0B00A82702 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Swift-Ed25519/Swift-Ed25519/Swift-Ed25519-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		42117C281F628D0B00A82702 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Swift-Ed25519/Swift-Ed25519/Swift-Ed25519-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42117C1A1F628D0900A82702 /* Build configuration list for PBXProject "Swift-Ed25519" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42117C241F628D0B00A82702 /* Debug */,
+				42117C251F628D0B00A82702 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42117C261F628D0B00A82702 /* Build configuration list for PBXNativeTarget "Swift-Ed25519" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42117C271F628D0B00A82702 /* Debug */,
+				42117C281F628D0B00A82702 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42117C171F628D0900A82702 /* Project object */;
+}
